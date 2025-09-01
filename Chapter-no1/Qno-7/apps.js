@@ -1,0 +1,1 @@
+alert("click on link will open parts of Qno:7")
