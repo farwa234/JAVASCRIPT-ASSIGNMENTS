@@ -14,4 +14,4 @@
 // alert("Happy Coding \n Prevents this page from creating additional dialogs")
 
 // Qno5: Generate the following message through browser’s developer console?
-// alert("Hello...I can run JS through my web browser console")
+// console.log("Hello...I can run JS through my web browser console")
