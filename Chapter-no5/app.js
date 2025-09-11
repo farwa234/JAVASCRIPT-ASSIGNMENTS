@@ -58,12 +58,38 @@
 // document.write(`Total cost to buy 5 tickets to a movie is ${total} PKR`)
 
 // Q5. Write a script to display multiplication table of any number in your browser. E.g?
-// Q5. Write a script to display multiplication table of any number in your browser.
 
-// let table = 4; 
-// document.write(`Table of ${table} <br><br>`);
-// for (let i = 1; i <= 10; i++)
-//  {document.write(`${table} x ${i} = ${table * i} <br>`)};
+// let num  =  1;
+// document.write(`<h1> TABLE OF 4 </h1> <br>`)
+// document.write(`4 X ${num} = ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+// num++ 
+// document.write("<br />")
+// document.write(`4 X ${num} =  ${4*num}`)
+
 
 // Q6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here?
 
