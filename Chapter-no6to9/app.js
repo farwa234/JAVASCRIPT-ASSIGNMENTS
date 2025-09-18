@@ -66,68 +66,76 @@
 // }
 
 // Q6. Take
-// document.write(`<h1>Subject Total Marks Obtained Marks Percentage </h1> <br> `)
+// document.write(`<h1>MarkSheet</h1> <br> `)
 
-// a) Take three subjects name from user and store them in 3
-// different variables.
+// // a) Take three subjects name from user and store them in 3
+// // different variables.
 // let subjectFirst=prompt("Enter First Subject Name");
 // let subjectSecond=prompt("Enter Second Subject Name");
 // let subjectThird=prompt("Enter Third Subject Name");
 
-// b) Total marks for each subject is 100, store it in another
-// variable.
+// // b) Total marks for each subject is 100, store it in another
+// // variable.
 // let totalMarks = 300
 
-// c) Take obtained marks for first subject from user and
-// stored it in different variable.
+// // c) Take obtained marks for first subject from user and
+// // stored it in different variable.
 // let obtainedSubject1 = +prompt("Enter your First Subject Marks")
 
-// d) Take obtained marks for remaining 2 subjects from user
-// // and store them in variables.
+// // d) Take obtained marks for remaining 2 subjects from user
+// // // and store them in variables.
 // let obtainedSubject2 = +prompt("Enter your Second Subject Marks")
 // let obtainedSubject3 = +prompt("Enter your Third Subject Marks")
 
-// e) Now calculate total marks and percentage and show the
-// result in browser like this.(Hint: user table)
+// // e) Now calculate total marks and percentage and show the
+// // result in browser like this.(Hint: user table)
 // let obtainedMarks = obtainedSubject1 + obtainedSubject2 + obtainedSubject3
-// let percentage = (`obtainedMarks/totalMarks`) * 100
+// let percentage = obtainedMarks/totalMarks * 100
 // let percentage1=(obtainedSubject1/100)*100;
 // let percentage2=(obtainedSubject2/100)*100;
 // let percentage3=(obtainedSubject3/100)*100;
 
 
-// document.write(`<table>`)
-// document.write('<tr>')
-// document.write(`<td> ${subjectFirst}  </td>`)
-// document.write(`<td> 100 </td>`)
-// document.write(`<td> ${obtainedSubject1} </td>`)
-// document.write(`<td>${percentage1} % </td>`)
-// document.write(`</tr>`)
+// document.write(`<table border = "1">
+// <tr>
+// <th>Subject</th>
+// <th>Total Marks</th>
+// <th>Obtained Marks</th>
+// <th>Percentage</th>
+// </tr>
 
 
-// document.write('<tr>')
-// document.write(`<td> ${subjectSecond}  </td>`)
-// document.write(`<td> 100 </td>`)
-// document.write(`<td> ${obtainedSubject2} </td>`)
-// document.write(`<td>${percentage2} % </td>`)
-// document.write(`</tr>`)
+// <tr>
+// <td> ${subjectFirst}  </td>
+// <td> 100 </td>
+// <td> ${obtainedSubject1} </td>
+// <td>${percentage1} % </td>
+// </tr>
 
 
-// document.write('<tr>')
-// document.write(`<td> ${subjectThird}  </td>`)
-// document.write(`<td> 100 </td>`)
-// document.write(`<td> ${obtainedSubject3} </td>`)
-// document.write(`<td>${percentage3} % </td>`)
-// document.write(`</tr>`)
+// <tr>
+// <td> ${subjectSecond}  </td>
+// <td> 100 </td>
+// <td> ${obtainedSubject2} </td>
+// <td>${percentage2} % </td>
+// </tr>
 
 
-// document.write(`<tr>`);
-// document.write(`<th></th>`);
-// document.write(`<th> ${totalMarks}</th>`);
-// document.write(`<th> ${obtainedMarks}</th>`);
-// document.write(`<th> ${percentage} % </th>`);
-// document.write(`</tr>`);
-// document.write(`</table>`)
+// <tr>
+// <td> ${subjectThird} </td>
+// <td> 100 </td>
+// <td> ${obtainedSubject3} </td>
+// <td>${percentage3} % </td>
+// </tr>
+
+
+// <tr>
+// <th>Total Percentages</th>
+// <th> ${totalMarks}</th>
+// <th> ${obtainedMarks}</th>
+// <th> ${percentage} % </th>
+// </tr>
+// </table>`)
 
 
 
