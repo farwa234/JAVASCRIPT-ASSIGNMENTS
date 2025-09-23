@@ -156,12 +156,12 @@
 // divisible by 3. Show the message to the user if the number
 // is divisible by 3.
 
-// let number = +prompt("Enter number to check number is divisible by 3 or not")
-// if(number% 3 ===0){
-// alert(`${number} Is Divisible by 3`)
+// let numb = +prompt("Enter number to check number is divisible by 3 or not")
+// if(numb% 3 ===0){
+// alert(`${numb} Is Divisible by 3`)
 // }
 // else{
-//     alert(`${number} Is Not Divisible by 3`)
+//     alert(`${numb} Is Not Divisible by 3`)
 // }
 
 // Q9. Write a program that checks whether the given input is an
