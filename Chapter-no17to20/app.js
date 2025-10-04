@@ -6,13 +6,14 @@
 
 // Q.2 Declare and initailize a multidimensional array representing the following matrix?
 
-// const matrix = [
-//     [0,1,2,3],
-//     [1,0,1,2],
-//     [2,1,0,1]];
+//  const matrix = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
 
-// for(let i =0;i<matrix.length;i++){
-// document.write(`${matrix[i]}`+"<br/>")
+// for(let i = 0;i<matrix.length;i++){
+//   for(let j=0;j<matrix[i].length;j++){
+//     document.write(matrix[i][j]+" ")
+//   }
+//   document.write("<br />")
+  
 // }
 
 // Q.3 Write a program to print numeric counting from 1 to 10?
