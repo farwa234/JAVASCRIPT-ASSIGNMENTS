@@ -150,3 +150,70 @@
 // table at the end of this document.?
 
 
+// let password = prompt("Enter your Password ?")
+// let hasAlphabet = false
+// let hasNumber = false
+// let validLength = false 
+// let startsWithLetter = true
+
+// for(let i = 0;i < password.length ; i++ ){
+// // let charCode = password.charCodeAt(i)
+// if((charCode  >=65 && charCode <= 90 ) || (charCode >= 97 && charCode <= 122)){
+// hasAlphabet = true;
+// }
+// }
+
+// for(let i = 0 ; i < password.length ; i++){
+// let charCode = password.charCodeAt(i)
+// if(charCode >= 48 && charCode <= 57){
+// hasNumber = true;
+// }
+// }
+
+
+// let firstCharCode = password.charCodeAt(0)
+// if(firstCharCode>= 48 && firstCharCode <= 57){
+// startsWithLetter = false
+// }
+// if(password.length >= 6){
+//     validLength = true
+
+// }
+// if(hasAlphabet && hasNumber && validLength && startsWithLetter){
+// alert(`✅ Password Approved`)
+// }
+// else{
+//     alert(`❌ Enter a Valid Password`)
+// }
+
+
+// 16. Write a program to convert the following string to an
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser.
+
+// let university = "University of Karachi";
+// let arr = university.split("")
+// for(let i = 0 ; i <arr.length ; i++){
+// document.write(`${arr[i]} <br/>`)
+// }
+
+// 17. Write a program to display the last character of a user input.
+
+// let userInput = prompt("Enter the word")
+// document.write(`UserInput : ${userInput} <br/> Last Character of User Input : ${userInput[userInput.length -1]}`)
+
+
+// 18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of
+// occurrences of word “the” in given string.
+
+// let stri = "The quick brown fox jumps over the lazy dog"
+// let change = stri.toLowerCase()
+// let count = stri.match(/the/g)
+// let length = count.length
+// document.write(`Text:${stri} <br/> There are ${length} occurence(s) of word "the"`)
+
+
+
+
+// ====================Chapter 21 to 25  End =========================
